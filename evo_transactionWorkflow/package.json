@@ -1,0 +1,13 @@
+{
+  "name": "suitecloud-project",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "uploadScript" : "suitecloud file:upload --paths /SuiteScripts/Transaction Approval/test/evo_cs_calculateAppliedAmound.js",
+    "importScript" : "suitecloud file:import --paths /SuiteScripts/Disable Department.js"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "@oracle/suitecloud-unit-testing": "^1.1.5"
+  }
+}

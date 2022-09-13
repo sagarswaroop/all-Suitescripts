@@ -1,0 +1,88 @@
+1. Up & Going
+----------------------------------------------------------------------------------------------->
+
+Statements:
+- in computer, the group of words, numbers and operator that perform a task is call Statement.
+ ex: a = b * 2;
+
+- Varaibles: Variables are the container that hold the value in program.
+- litteral value:  Vlue wihtout any container is called " litteral value".
+- perform: is a collection of Statements.
+- expressions: expressions is called to Varaibles, value and group of all words, numbers and operators
+    ex: a and b are Variable expression.
+            2 is a litteral expression.
+            b*2 is an arithemetic expression.
+            = is an assignment expression.
+            function is also an expression.
+
+Interpreter and compliler: these helps to translate the code that can be understand by computer.
+Interpreter: it interpret each line from top to bottom
+compliler: it complies the whole code in one go.
+
+Javascript Interpreter: Javascript complies the code and run on the fly.
+
+>>>>>>>>>>>>>>>>>>>.
+Developer tool console: knowldeg about "Developer tool console". it has console API.
+    short command: ctrl+ shift+I (windows) | ctrl + command + I (MAC).
+
+    we can use some formate specifier in console:
+        %s	String
+        %d or %i	Integer
+        %f	Floating point value
+        %o	Expandable DOM element (as displayed in the ‘Elements’ tab of the dev tools)
+        %O	Expandable JavaScript object
+        %c	Formats the output using the CSS style you provide
+    
+        ex 1:
+        var number = 11 * 9;
+        var color = 'red';
+        console.log('%d %s balloons', number, color);
+        
+        ex 2:
+        console.log('%cThis text is styled!', 'color: #86CC00; background-color: blue; font-size: 20px; padding: 3px;')
+        
+some methods of Developer tool:
+    - console.assert(first parameter for boolean, second param is to show data).
+        var count = 5;
+        console.assert(count > 10, 'count is not larger than 10');
+
+    console.count("description") :  it tell count of method that how many times it calls. 
+        ex: when user wants to know the function call.
+        function clickHandler() {
+            console.count('Click handler called');
+        }
+        for (var i = 0; i < 3; i++) {
+            clickHandler();
+        }
+
+    - console.dir(object): This method is especially useful for examining HTML elements, as it will display the DOM representation of the element rather than the XML representation displayed.
+    ex: console.log(document.body);
+        console.dir(document.body);
+    
+
+
+
+
+workflow in NetSuite-->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+what is suiteflow:
+    -  custom business process for a standard or custom record in NetSuite. Business processes can include transaction approval, lead nurturing, and record management. A workflow defines and automates the business process.
+
+permision to work with workflow:
+    - enalbe suiteflow in NetSuite account(Setup > Company > Setup Tasks > Enable Features).
+    - add workflow option in setup-->permision-->workflow.
+
+When work on SChedule workflow:
+    - There should be an saved search for SChedule workflow.
+    - workflow triger on specified time when some results update in saved search.
+
+
+Parent Child Relationship in Records -->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    what: when a record is depend on another record is called Parent Child Relationship.
+
+    why: when a record option should populate on their depend selected otption.
+
+    How: create a record such as "Catagory" --> create another record (sub-record) where create a field with list type and select the list "Catagory" in list type. --> create a custom field (record or transaction type) as list type and select su-record as list type  --> add the created field to desired record.
+
+
+    

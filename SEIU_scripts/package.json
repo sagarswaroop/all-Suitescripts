@@ -1,0 +1,16 @@
+{
+  "name": "suitecloud-project",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "newscript": "suitecloud file:create -i",
+    "importscript": "suitecloud file:import --paths /SuiteScripts/seiu_ue_copeform_amountAsign.js",
+    "uploadscript": "suitecloud file:upload --paths /SuiteScripts/seiu_ue_copeform_amountAsign.js"
+    
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "@oracle/suitecloud-unit-testing": "^1.1.5"
+    
+  }
+}

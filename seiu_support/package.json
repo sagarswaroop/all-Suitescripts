@@ -1,0 +1,13 @@
+{
+  "name": "suitecloud-project",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "uploadScript" : "suitecloud file:upload --paths /SuiteScripts/cashdeposit_cs_lineValidation.js",
+    "importScript" : "suitecloud file:import --paths /SuiteScripts/ds_config_sl.js.js"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "@oracle/suitecloud-unit-testing": "^1.1.5"
+  }
+}

@@ -1,0 +1,4 @@
+<name>Hello World
+<scriptfile>[/SuiteScripts/testfile.js]
+<scriptdeployment scriptid='scriptdeploy_helloworld'>
+<recordtype>[]
