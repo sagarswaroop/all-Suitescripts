@@ -1,0 +1,11 @@
+{"error":{
+    "type":"error.SuiteScriptError","name":"SSS_MISSING_REQD_ARGUMENT",
+    "message":"createConnection: Missing a required argument: optins.hostKey",
+    "stack":["createError(N/error)","onRequest(/SuiteApps/com.netsuite.sftpconnector/src/ns_sl_sftp_test.js:46)","createError(N/error)"],
+    "cause":{
+        "name":"SSS_MISSING_REQD_ARGUMENT","message":"createConnection: Missing a required argument: optins.hostKey"
+    },
+    "id":"","notifyOff":false,
+    "userFacing":true
+    }
+    }

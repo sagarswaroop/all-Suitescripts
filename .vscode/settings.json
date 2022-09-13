@@ -1,0 +1,3 @@
+{
+    "netSuiteUpload.authentication": "{   // Authentication header   \"netSuiteUpload.authentication\": \"NLAuth nlauth_account=TSTDRV2347190, nlauth_email=sagar.kumar@streamssolutions.com, nlauth_signature=Sagar@2020, nlauth_role=administrator\",  }"
+}
